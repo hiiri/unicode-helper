@@ -1,0 +1,31 @@
+body {
+    font-family: "Inter", sans-serif;
+  }
+  
+  #characterGrid {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+#characterGrid {
+  display: grid;
+  grid-template-columns: repeat(816, 1fr);
+  gap: 2px;
+}
+
+#characterGrid div {
+  padding: 4px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+  
+  #characterGrid div:hover {
+    background-color: #edf2f7;
+  }
+
+  
